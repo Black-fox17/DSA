@@ -53,6 +53,6 @@ class Solution:
 
 
 
-
-test = Solution(["alice,20,800,mtv","bob,50,1200,mtv"])
-print(test.check_invalid())
+sol = Solution()
+test = Solution().invalidTransactions(["alice,20,800,mtv","alice,50,100,mtv","alice,51,100,frankfurt"])
+print(test)
